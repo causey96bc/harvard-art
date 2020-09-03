@@ -3,13 +3,13 @@ This project demonstrates my capabilities to efficiently connect to a modern api
 It also displays my ability to design a front end experience for a user. 
 The site loads and displays all relevant data, on demand.
 
-//
+<br/>
 #Search Bar
 
 The Search Bar is the main entry point for all app functionality. Users will enter a search string, and 
 possibly restrict down either by classification (things like Amulets or Photos) or by century by using a 
-<select> tag that we populate by fetching the available classifications and centuries from the API.
-//
+<select> tag that I populate by fetching the available classifications and centuries from the API.
+
 #Fetching Category Lists
 created two build  functions: fetchAllCenturies and fetchAllClassifications. They will be called to get the categories that will be used in 
 the search bar, and will use the data they fetch in a third function called prefetchCategoryLists which takes them and adds the fields to the
